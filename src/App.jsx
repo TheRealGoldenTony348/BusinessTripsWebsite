@@ -88,11 +88,13 @@ export default function App() {
   return (
     <>
       <div>
-        <Header />
+        <div className="header-shadow">
+          <Header />
+        </div>
         <main>
-          <section id="filters">
+          <section id="filters" className="filter-section">
             <label htmlFor="month">Filter by Month:</label>{" "}
-            <select id="size">
+            <select id="size" className="month-select">
               <option value="">All months</option>
               <option value="1">January</option>
               <option value="2">February</option>

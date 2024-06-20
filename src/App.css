@@ -54,6 +54,26 @@ header li {
   margin-right: 20px;
 }
 
+.header-shadow {
+  box-shadow: 0px -8px 20px;
+}
+
+.filter-section {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #67A8ED;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 6px;
+}
+
+.month-select {
+  border-color: #67A8ED;
+  border-radius: 8px;
+  padding: 2px 4px 2px 4px;
+}
+
 #detail img {
   max-height: 400;
 }
