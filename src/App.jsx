@@ -64,7 +64,9 @@ export default function App() {
       <div className="product" key={t.id}>
         <figure>
           <div>
-            <img src={"images/items/" + t.id + ".jpg"} alt="name " />
+            <a href="#. . . ">
+              <img className="product-images" src={"images/items/" + t.id + ".jpg"} alt="name " />
+            </a>
           </div>
           <figcaption>
             <a href="#. . . ">{t.title}</a>
@@ -75,7 +77,7 @@ export default function App() {
             </div>
             <p>{t.description}</p>
             <div>
-              <button type="button" disabled>
+              <button className="triplist-button" type="button" disabled>
                 Add to Triplist
               </button>
             </div>

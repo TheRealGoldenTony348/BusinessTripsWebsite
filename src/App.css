@@ -39,10 +39,10 @@ nav {
 
 footer {
   text-align: center;
-  color: gray;
-  padding: 20px 0 20px 0;
+  color: #364147;
+  padding: 10px 0 10px 0;
   flex-shrink: 0;
-  background-color: gainsboro;
+  background-color: #A1DBFF;
 }
 
 header ul {
@@ -92,9 +92,41 @@ header li {
 
 .product {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   max-width: 350px;
   text-align: center;
+}
+
+.product-images{
+  border-radius: 16px;
+  object-fit: cover;
+  width: 400px;
+  height: 300px;
+  box-shadow: 2px 2px 6px;
+  margin-bottom: 8px;
+  transition: opacity 0.4s;
+  opacity: 1;
+}
+
+.product-images:hover {
+  transition: opacity 0.7s;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.triplist-button{
+  background-color: #67A8ED;
+  color: #364147;
+  border: none;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 6px;
+  transition: box-shadow 0.4s;
+}
+
+.triplist-button:hover {
+  transition: box-shadow 0.7s;
+  box-shadow: 5px 5px 10px;
 }
 
 #cart img {
@@ -126,8 +158,9 @@ main {
 }
 
 a {
-  color: #faa541;
+  color: #364147;
   text-decoration: none;
+  font-weight: bold;
 }
 
 h1 {
