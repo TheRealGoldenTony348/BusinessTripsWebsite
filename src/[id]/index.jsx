@@ -12,8 +12,9 @@ export default function IdComponent() {
         <div className="imageBox">
           <img src={"../images/items/" + id + ".jpg"} alt="image" className="image"/>
         </div>
-        <div>
-          
+        <div className="box">
+          <h1>Titel konnte nicht geladen werden</h1>
+
         </div>
       </div>
     </>

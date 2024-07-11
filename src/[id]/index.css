@@ -8,4 +8,19 @@
 .image {
     border-radius: 16px;
     object-fit: cover;
+    width: 400px;
+    height: 300px;
+    box-shadow: 2px 2px 6px;
+    margin-bottom: 8px;
+}
+
+.imageBox {
+    width: 20vw;
+    padding: 16px;
+}
+
+.box {
+    display: flex;
+    width: 70vw;
+    justify-content: center;
 }
